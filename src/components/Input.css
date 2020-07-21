@@ -1,0 +1,12 @@
+.Input {
+    padding-left: 20px;
+    background-color: white;
+    color: black;
+    width: 685px;
+    height: 54px;
+    font-size: 14px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+}

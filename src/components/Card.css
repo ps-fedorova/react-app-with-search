@@ -1,0 +1,55 @@
+.App-cards {
+    list-style: none;
+    padding: 48px 0 0;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, 273px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.Card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Card_img {
+    height: 300px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.Card_description {
+    height: 80px;
+}
+
+.Card_title {
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 85%;
+}
+
+.Card_likes{
+    font-weight: normal;
+    color: darkred;
+}
+
+.Card_subtitle {
+    margin: 0 auto;
+    padding-top: 5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 85%;
+}

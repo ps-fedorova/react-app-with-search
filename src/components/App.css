@@ -1,0 +1,26 @@
+html {
+  background-color: rgb(77, 77, 77);
+}
+.App {
+  text-align: center;
+  color: black;
+}
+
+.App-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.App-search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.App-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
