@@ -1,11 +1,12 @@
 import React from 'react'
 import './Button.css'
 
-function Button({title, handleClick}) {
-    return (
-        <button className="Button" onClick={handleClick}>{title}
-        </button>
-    )
+function Button({title, ...rest}) {
+  return (
+    <button className="Button" {...rest}>
+      {title}
+    </button>
+  )
 }
 
 export default Button

@@ -1,0 +1,38 @@
+
+.Photo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Photo-image {
+    max-width: 75vw;
+    max-height: 75vh;
+}
+
+.Photo-title {
+    color: white;
+    font-size: larger;
+    margin: 20px 0 0;
+}
+
+.Photo-subtitle {
+    color: white;
+    font-size: large;
+    margin-top: 5px;
+}
+
+.Photo-go-back {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+}
